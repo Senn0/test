@@ -1,0 +1,591 @@
+@import url('https://fonts.googleapis.com/css2?family=Alumni+Sans:ital,wght@0,100..900;1,100..900&family=Wix+Madefor+Text:ital,wght@0,400..800;1,400..800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    text-decoration: none;
+}
+
+a:hover{
+    color: #8C6659;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+.body{
+    width: 100%;
+    background-color: #FFFFFF;
+}
+
+.vertical-center{
+    vertical-align:middle;
+}
+
+/* Стили текста */
+
+
+
+h1,h2,h3,h4,h5,h6{
+    font-family: "Alumni Sans", sans-serif;
+    font-weight: bold;
+    font-style: normal;
+    color: #2D3047;
+}
+
+h1{
+    font-size: 120px;
+    line-height: 90%;
+}
+h2{
+    font-size: 80px;
+    line-height: 100%;
+}
+h3{
+    font-size: 60px;
+    line-height: 110%;
+}
+h4{
+    font-size: 46px;
+    line-height: 110%;
+}
+h5{
+    font-size: 30px;
+    line-height: 130%;
+}
+h6{
+    font-size: 24px;
+    line-height: 130%;
+}
+
+.p1,.p2,.p3,p{
+    font-family: "Wix Madefor Text", sans-serif;
+    font-weight: regular;
+    font-style: normal;
+    color: #556877
+}
+
+.p1{
+    font-size: 24px;
+    line-height: 130%;
+}
+.p2{
+    font-size: 16px;
+    line-height: 140%;
+}
+.p3{
+    font-size: 14px;
+    line-height: 130%;
+}
+
+/* Цвета */
+
+.head{
+    color: #2D3047;
+}
+
+.card-colour{
+    background-color: #FFFFFF;
+}
+
+.background-light-colour{
+    background-color: #FFFBF9;
+}
+
+.background-dark-colour{
+    background-color: #EDE7E5;
+}
+
+.stroke-colour{  /* тут короче просто копируешь цвет, а при завершении работы удаляешь пункт */
+    border-color: #DACFCA;
+}
+
+.primary-colour{ 
+    background-color: #A3887B;
+}
+
+.primary-text-colour{ 
+    color: #A3887B;
+}
+
+.hover-colour{  /* тут короче просто копируешь цвет, а при завершении работы удаляешь пункт */
+    background-color: #8C6659;
+}
+
+/* Header */
+
+.header{
+    border-bottom: 1px solid #DACFCA;
+    height: 80px;
+    width: 100%;
+}
+
+.menu{
+    width: 1170px;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo{
+    font-family: "Wix Madefor Text", sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 120%;
+    color: #2D3047;
+}
+
+.links{
+    width: 678px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+
+/* Слайдер */
+
+.slider{
+    height: 860px;
+    width: 100%;
+    position: absolute;
+    z-index: -100;
+    top: 80px;
+}
+
+.slider-image-right{
+    position: absolute;
+    right: 0;
+}
+
+.slider_slide{
+    display: flex;
+}
+
+.slider_slide-text{
+    width: 600px;
+    position: absolute;
+    right: 975px;
+    top: 120px;
+}
+
+.slide-block{
+    width: 660px;
+    height: 495px;
+    background-color: #EDE7E5;
+    position: absolute;
+    top: 365px;
+    right: 315px;;
+}
+
+.slide-block > div{
+    position: absolute;
+    bottom: 0;
+    left: 40px;
+}
+
+.slide-block > div > hr{
+    margin-top: 16px;
+    margin-bottom: 43px;
+    width: 560px;
+    border: 1px solid #A3887B;
+    color: #A3887B;
+}
+
+.slide-block > div > h6 {
+    text-align: right;
+}
+
+.slide-block > div > h6 > a {
+    margin-right: 10px;
+}
+
+.slide-image-frame{
+    position: absolute;
+    right: 275px;
+    border: 25px solid #ffff;
+    -webkit-box-shadow: 0px 3px 4px -1px rgba(0, 0, 0, 0.25);
+    -moz-box-shadow: 0px 3px 4px -1px rgba(0, 0, 0, 0.25);
+    box-shadow: 0px 3px 4px -1px rgba(0, 0, 0, 0.25);
+}
+
+.slider_slide-text-one{
+    display: flex;
+    margin-bottom: 80px;
+}
+
+.slider_slide-text-one > h5{
+    position: relative;
+    left: -30px;
+}
+
+.slider-button{
+    background-color: #A3887B;
+    width: 180px;
+    height: 60px;
+    height: 23px;
+    padding: 19px 40px;
+}
+
+.slider-button-one{
+    margin-top: 60px;
+}
+
+.slider-button-two{
+    margin-right: 30px;
+    margin-left: 46px;
+    position: absolute;
+    top: 770px;
+    right: 0;
+    width: 159px;
+}
+
+.slider-button > a {
+    color: #fff;
+    
+}
+
+.slider-button:hover{
+    background-color: #8C6659;
+    color: #fff;
+}
+
+
+/* О доме */
+
+.container{
+    width: 1170px;
+    margin: 80px auto;
+}
+
+.about-info{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 60px;
+}
+
+.about-image{
+    background-image: url("../image/about.png");
+    width: 470px;
+    height: 470px;
+}
+
+.about-text{
+    width: 570px;
+}
+
+.about-adress-mg{
+    margin-top: 40px;
+}
+
+.pin{
+    vertical-align: middle ;
+    width: 24px;
+}
+
+.about-text-mg{
+    margin-top: 20px;
+}
+
+
+.cards{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+
+.card{
+    height: 270px;
+    width: 270px;
+    background-image: url("../image/svg/card.svg");
+}
+
+.card-content{
+    margin: 50px 40px;
+    text-align: center;
+    height: 170px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+/* Планировка */
+
+.plan{
+    height: 860px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.plan-container{
+    width: 1170px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.plan-info{
+    width: 472px;
+}
+
+
+.form_toggle{
+    margin: 40px 0;
+}
+
+.form_toggle-item{
+    height: 111px;
+	width: 100%;
+    border: 1px solid #A3887B;
+    border-radius: 1px;
+    display: flex;
+}
+
+.form_toggle > .item-2 {
+	margin-top: 10px;
+    opacity: 0.35;
+}
+
+.form_toggle-square{
+    position: relative;
+    width: 51px;
+    height: 51px;
+    margin: 30px 0px 30px 30px;
+}
+
+.form-one{
+    position: relative;
+    z-index: 1;
+    margin: 30px 0;
+    right: 15px;
+}
+
+.form-one-text{
+    margin: 36px 30px;
+}
+
+.zones{
+    margin-top: 30px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+
+.zone{
+    width: 200px;
+}
+
+.plan-illustration{
+    width: 581px;
+}
+
+.east{
+    background-image: url("../image/plan-image/east.png");
+    height: 61px;
+    width: 581px;
+}
+
+.west{
+    background-image: url("../image/plan-image/west.png");
+    height: 61px;
+    width: 581px;
+}
+
+.plan-image{
+    background-image: url("../image/plan-image/four.png"), 
+                      url("../image/plan-image/five.png"),
+                      url("../image/plan-image/two.png"),
+                      url("../image/plan-image/one.png");
+    width: 581px;
+    height: 499px;
+    margin: 49px 0;
+}
+
+.hint-one{
+    position: relative;
+    left: 253px;
+    top: 290px;
+    max-width: 350px;
+}
+
+.hint-two{
+    position: relative;
+    left: 271px;
+    top: 293px;
+    max-width: 350px;
+}
+
+.hint-three{
+    position: relative;
+    left: 184px;
+    top: 305px;
+    max-width: 350px;
+}
+
+
+.hint-icon{
+    width: 34px;
+    height: 34px;
+    background-image: url("../image/plan-image/hint.png");
+    vertical-align: middle;
+    cursor: pointer;
+    display: inline-block;
+}
+
+.hint-icon:hover + .hint-body{
+    visibility: visible;
+}
+
+.hint-icon:hover{
+    background-image: url("../image/plan-image/hint-hover.png");
+}
+
+.hint-body{
+    border: 1px solid #A3887B;
+    margin-left: 5px;
+    width: 260px;
+    background-color: rgb(255 255 255);
+    display: inline-block;
+    visibility: hidden;
+}
+
+.hint-item{
+    padding: 15px 20px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+
+.hint-item-text{
+    width: 130px;
+}
+
+/* В квартирах предусмотрено */
+
+.provided{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+
+.card-contact{
+    border: 1px solid #A3887B;
+    height: 270px;
+    width: 266px;
+}
+
+.card-mg-t{
+    margin-top: 30px;
+}
+
+.card-provided-content{
+    margin: 30px;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-between;
+    height: 210px;
+    width: 190px;
+}
+
+.card-provided-image{
+    width: 60px;
+    height: 60px;
+    position: relative;
+    left: 150px;
+}
+
+/* Что входит в закрытую территорию дома */
+
+.closed_area{
+    width: 100%;
+    height: auto;
+    padding: 80px 0;
+}
+
+.closed_area-contaner{
+    width: 1070px;
+    margin: 0 auto;
+}
+
+.closed_area-h{
+    width: 670px;
+    text-align: center;
+    padding-bottom: 60px;
+    margin: 0 auto;
+}
+
+.closed_area-item{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+
+.closed_area-card{
+    background-image: url("../image/closed-area/frame.png");
+    width: 570px;
+    height: 360px;
+}
+
+.closed_area-img{
+    margin: 30px;
+}
+
+.sep-up{
+    width: 100px;
+    height: 1px;
+    background-color: #DACFCA;
+    margin-bottom: 60px;
+}
+
+.sep-down-one, .sep-down-two{
+    width: 100px;
+    height: 1px;
+    background-color: #DACFCA;
+    margin-top: 60px;
+    position: relative;
+}
+
+.sep-down-one{
+    left: 350px;
+}
+
+.sep-down-two{
+    left: 290px;
+}
+
+.closed_area-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.closed_area-mg-t{
+    margin-top: 60px;
+}
+
+.closed_area-round {
+    width: 140px; 
+    height: 140px;
+    border-radius: 50%;
+    position: relative;
+    top: -185px;
+    left: 40px;
+}
+
+.closed_area-round-text{
+    text-align: center;
+    position: relative;
+    top: 42px;
+}
